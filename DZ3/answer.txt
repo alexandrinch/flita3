@@ -1,0 +1,14 @@
+digraph G {
+  0;
+  1;
+  2;
+  3;
+  4;
+  1 -> 2 [dir=none, label=4];
+  1 -> 3 [dir=none, label=1];
+  1 -> 4 [dir=none, label=2];
+  2 -> 2 [dir=none, label=1];
+  2 -> 3 [dir=none, label=6];
+  3 -> 3 [dir=none, label=1];
+  3 -> 4 [dir=none, label=1];
+}
